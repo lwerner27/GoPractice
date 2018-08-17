@@ -21,7 +21,7 @@ func showFullName(fName, lName string) string {
 
 func main() {
 	showFirstName("Lucas")                       // Here is an example of an arguement
-	showFullName("Lucas", "Werner")              // Notice thing is printed here
+	showFullName("Lucas", "Werner")              // Notice nothing is printed here
 	fmt.Println(showFullName("Lucas", "Werner")) // We needed to print the return value
 }
 
