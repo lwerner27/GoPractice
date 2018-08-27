@@ -2,12 +2,15 @@ package main
 
 import "fmt"
 
+var varSlice []int
+
 func main() {
 	// Unlike arrays, slices do not have a defined length
 	mySlice := []int{1, 2, 3, 4, 5}
 
 	// This prints the whole slice
 	fmt.Println(mySlice)
+	fmt.Println(varSlice)
 
 	// We can also create arrays with the "make" and "new functions"
 	// In this example the 50 is the starting length of the slice,
