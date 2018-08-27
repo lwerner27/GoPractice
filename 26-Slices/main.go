@@ -35,4 +35,6 @@ func main() {
 	// Notice that the capacity doubles when our length exceeds our initial capacity
 	// append is very similar to push() in JavaScript
 
+	// Make is the suggested method for creating slices
+
 }
