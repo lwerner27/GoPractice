@@ -25,3 +25,7 @@ func main() {
 	fmt.Println(p2.fullName())
 
 }
+
+// We can have promotion in our custom types.
+// This allows us to override methods or fields based
+// for nested types
